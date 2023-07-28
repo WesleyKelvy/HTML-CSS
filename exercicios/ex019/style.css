@@ -1,0 +1,33 @@
+@charset "utf-8"; 
+
+/* 
+
+# = id (deve ser unico e nao usar para 2 ou mais tags)
+class = .
+
+ */
+body{
+    background-color: #113a52;
+}
+h1{
+    color: #F0F0C9;
+}
+#principal{
+    color: antiquewhite;
+    background-color: #D74E09;
+    text-align: center;
+}
+h2{
+    color: #F0F0C9;
+}
+
+.basico{
+    color: #9AC4F8;
+    font-weight: bold;
+}
+.intermediario{
+    color: #048A81;
+}
+.avancado{
+    color: #D74E09;
+}

@@ -1,0 +1,21 @@
+clear
+ls
+
+git add
+git commit -m "texto que quiser"
+git status: ver se tive modificaçoes
+
+git log: histórico do commit
+git show
+
+git remote add origin "endereço"
+git branch -M master
+git push -u origin master
+
+
+git diff - ver mudanças
+git checkout - reverter mudanças
+git reset HEAD + nome do arquivo - desfaz o git add
+git reset --soft (volta antes do commit) 
+git reset --mixed (volta antes do add) 
+git reset --hard (apaga tudo da alteraçao, ) 

@@ -1,0 +1,44 @@
+h1{ /* box - level */
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    
+    /*
+    border-width: 10px;
+    border-style: ridge; 
+    ridge = borda com elevaçao 
+    border-color: #9b9c9c;
+    */
+    border: 10px ridge #9b9c9c;
+
+    /*
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    text-align: center;
+    */
+    PADDING: 10PX;
+    /* se as 4 forem iguais: colocar só um 
+       ser for top e bottom iguais e left e right iguais, 2 valores.
+    */
+
+    /*
+    margin-top: 100px;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-left: auto;
+    */
+    margin: 100px auto;
+
+    outline: 5px dashed rgb(255, 0, 149);
+}
+
+.exemplo{ /* in line - level */
+    border: 5px solid red;
+    padding: 10px;
+
+    display: block;
+    /*mudando caractristica*/
+
+}

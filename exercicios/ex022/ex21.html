@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(182, 182, 182);
+        }
+        header{
+            width: auto;
+            padding: 10px;
+            margin: 10px;
+            background-color: white ;
+            border-radius: 8px;
+        }
+
+        nav{
+            background-color: gray;
+            padding: 5px;
+            box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.664);
+            /* x offset, y offset, blur, spread */
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-left: 30px;
+        }
+        
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.664);
+        }
+
+        article{
+            background-color: lightgray;
+        }
+        
+        article > aside{
+            background-color: #777777;
+        }
+
+        footer{
+            background-color: black;
+            text-align: center;
+            padding: 16px;
+            color: white;
+        }
+        footer > p {
+            margin: 0px
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+            <nav>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </nav>
+    </header>
+
+    <main>
+        <section id="noticias">
+            <p>Esporter Politica Tecnologia</p>
+            <article>
+                <h2>Noticia sobre fulano</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime animi dignissimos porro incidunt commodi amet quisquam. Tenetur fugit, aliquam eligendi soluta, similique laudantium atque iure possimus provident exercitationem delectus perspiciatis repellat corrupti dolor! Saepe fugiat eaque quo labore deleniti dolor.
+                </p>
+                <aside>
+                    <p>Artigo escrito por Pedro</p>
+                </aside>
+            </article>
+            
+            <article>
+
+            </article>
+
+
+
+
+
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvideo por mim</p>
+    </footer>
+
+    <div id="bola">
+
+    </div>
+    
+</body>
+</html>
